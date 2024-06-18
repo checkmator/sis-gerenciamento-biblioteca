@@ -1,0 +1,1 @@
+#Contém a classe Biblioteca e sua lógica.
