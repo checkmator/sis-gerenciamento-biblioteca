@@ -1,0 +1,1 @@
+#Testes para as funções auxiliares e utilitárias.
