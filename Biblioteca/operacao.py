@@ -1,3 +1,5 @@
+from .livro import Livro
+
 #Contém a classe Operacao.
 
 class Operacao:
