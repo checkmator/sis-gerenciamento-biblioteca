@@ -1,4 +1,5 @@
 from .livro import Livro
+from .operacao import Operacao
 
 #Contém a classe Biblioteca e sua lógica.
 
@@ -7,7 +8,7 @@ class Biblioteca:
         self.livros = []
         self.operacoes = []
     
-    def adicionar_livro(Livro):
+    def adicionar_livro(self, livro: Livro):
         pass
 
     def remover_livro(self):
@@ -16,8 +17,8 @@ class Biblioteca:
     def buscar_livro(self, titulo, autor):
         pass
 
-    def listar_livros():
+    def listar_livros(self):
         pass
 
-    def registrar_operacao():
+    def registrar_operacao(self, operacao: Operacao):
         pass
