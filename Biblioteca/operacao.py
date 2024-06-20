@@ -1,4 +1,5 @@
 #Contém a classe Operacao.
 
-class Operacao():
-    pass
+class Operacao:
+    def __init__(self):
+        pass
