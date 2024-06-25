@@ -1,4 +1,11 @@
 #O ponto de entrada do seu programa. Aqui você pode instanciar a classe Biblioteca e implementar a lógica principal do seu programa.
+from biblioteca.biblioteca import Biblioteca
+from biblioteca.livro import Livro
+from datetime import datetime
+
+# Inicializa a biblioteca
+bib = Biblioteca()
+
 
 def menu():
     print("Bem-vindo ao Sistema de Gerenciamento de Biblioteca!")
@@ -40,6 +47,10 @@ def main():
         elif escolha == '3':
             opcao3()
         elif escolha == '4':
+            opcao4()
+        elif escolha == '5':
+            opcao5()
+        elif escolha == '6':
             print("Saindo...")
             break
         else:
