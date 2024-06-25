@@ -23,3 +23,4 @@ class Biblioteca:
     def registrar_operacao(self, operacao: Operacao):
         pass
 
+
