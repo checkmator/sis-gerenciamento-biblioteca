@@ -26,9 +26,6 @@ def opcao5():
     print("Você escolheu a Opção 4")
 
 def opcao6():
-    print("Você escolheu a Opção 5")
-
-def opcao7():
     print("Você escolheu a Opção 6")
 
 def main():
