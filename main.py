@@ -1,5 +1,5 @@
-from biblioteca.biblioteca import Biblioteca
-from biblioteca.livro import Livro
+from Biblioteca.biblioteca import Biblioteca
+from Biblioteca.livro import Livro
 from datetime import datetime
 
 # Inicializa a biblioteca

@@ -6,8 +6,8 @@ from datetime import datetime
 
 class Biblioteca:
     def __init__(self, livros, operacoes):
-        self.livros = []
-        self.operacoes = []
+        self.livros = livros if livros is not None else []
+        self.operacoes = operacoes if operacoes is not None else []
     
     def adicionar_livro(self, livro: Livro):
         for l in self.livros:
