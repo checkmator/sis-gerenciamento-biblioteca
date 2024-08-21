@@ -3,8 +3,8 @@
 # test_biblioteca.py
 
 import unittest
-from biblioteca import Biblioteca
-from livro import Livro
+from Biblioteca.biblioteca import Biblioteca
+from Biblioteca.livro import Livro
 
 class TestBiblioteca(unittest.TestCase):
     def test_adicionar_livro(self):
