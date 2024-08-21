@@ -1,10 +1,19 @@
-# main.py
-
-from Biblioteca.biblioteca import Biblioteca
-from Biblioteca.livro import Livro
+from biblioteca.biblioteca import Biblioteca
+from biblioteca.livro import Livro
 from datetime import datetime
 
+# Inicializa a biblioteca
 bib = Biblioteca()
+
+def menu():
+    print("Bem-vindo ao Sistema de Gerenciamento de Biblioteca!")
+    print("Por favor, selecione uma opção:")
+    print("1 - Adicionar Livro")
+    print("2 - Remover Livro")
+    print("3 - Buscar Livro")
+    print("4 - Listar Livros")
+    print("5 - Registrar Operação")
+    print("6 - Sair")
 
 def opcao1():
     titulo = input("Digite o título do livro: ")
@@ -47,7 +56,7 @@ def main():
         elif escolha == '4':
             opcao4()
         elif escolha == '5':
-            opcao5()
+            print("Operação não implementada.")
         elif escolha == '6':
             print("Saindo...")
             break
