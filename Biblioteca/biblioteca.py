@@ -6,6 +6,7 @@ from datetime import datetime
 
 class Biblioteca:
     def __init__(self, livros, operacoes):
+        print("Construtor Biblioteca chamado")
         self.livros = livros if livros is not None else []
         self.operacoes = operacoes if operacoes is not None else []
     
