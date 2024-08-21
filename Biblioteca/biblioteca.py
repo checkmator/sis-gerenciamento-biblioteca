@@ -9,7 +9,13 @@ class Biblioteca:
         self.operacoes = []
     
     def adicionar_livro(self, livro: Livro):
-        pass
+        for l in self.livros:
+            if l.isbn == livro.isbn:
+                print("Este ISBN já existe na biblioteca.")
+                return
+        self.livros.append(livro)
+        print(f"Livro '{livro.titulo}' adicionado com sucesso!")
+        self.registrar_operacao(Operacao("Adição", livro, datetime.now()))
 
     def remover_livro(self):
         pass
